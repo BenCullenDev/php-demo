@@ -7,9 +7,13 @@ require "Database.php";
 
 $config = require ('config.php');
 
+$id = $_GET['id'];
+
+$query = "select * from posts where id = ?";
+
 $db = new Database($config['database']);
 
-$posts = $db->query("select * from posts")->fetchAll();
+$posts = $db->query($query, [$id])->fetch();
 
 //foreach ($posts as $post)
 //{
