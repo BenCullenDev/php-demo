@@ -21,3 +21,4 @@
 2023-01-13T11:28:51.372612Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
 2023-01-13T11:28:51.425476Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
 2023-01-13T11:28:51.425548Z 0 [System] [MY-010931] [Server] C:\laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2023-01-13T14:30:10.445782Z 11 [Warning] [MY-013360] [Server] Plugin sha256_password reported: ''sha256_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
