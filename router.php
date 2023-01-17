@@ -9,8 +9,8 @@ $routes = [
 '/notes' => 'controllers/notes.php'
 ];
 
-function abort($code = 404){
-http_response_code(404);
+function abort($code){
+http_response_code($code);
 
 require "views/{$code}.php";
 
